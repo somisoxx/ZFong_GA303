@@ -22,6 +22,6 @@ public class Movementest : MonoBehaviour
     {
         //moveDirection is currently (1,0,1)
         this.transform.position += moveDirection * speed * Time.deltaTime; //Multiplying by Time.deltatime means "Per Second" instead of "Per Frame"
-        Debug.Log("yippieee");
+        
     }
 }
