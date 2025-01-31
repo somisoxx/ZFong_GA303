@@ -721,7 +721,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 433951351}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0988c61a184170d4ea3732f69d79dc2e, type: 3}
   m_Name: 
@@ -802,7 +802,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1335225296}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0988c61a184170d4ea3732f69d79dc2e, type: 3}
   m_Name: 
@@ -947,6 +947,8 @@ GameObject:
   - component: {fileID: 1846193532}
   - component: {fileID: 1846193531}
   - component: {fileID: 1846193536}
+  - component: {fileID: 1846193537}
+  - component: {fileID: 1846193538}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -1070,7 +1072,35 @@ MonoBehaviour:
   bulbasaur: 3.5
   squirtle: 2.3
   charmander: 1.1
-  total: 0
+--- !u!114 &1846193537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846193530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88f0fb69a7563d043a9bc1a61bcd8d56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  three: one
+  two: two
+  one: three
+--- !u!114 &1846193538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846193530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f14ac5b140d42814fb54b8de23ee2fb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  start: {x: 0, y: 0, z: 0}
+  move: {x: 0, y: 2, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
