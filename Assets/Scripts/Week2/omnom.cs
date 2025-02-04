@@ -7,6 +7,8 @@ public class omnom : MonoBehaviour
     public GameObject youDiedScreen;
 
     public Vector3 rotationAmount;
+
+    public Transform teleportTransform;
     
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -44,7 +46,7 @@ public class omnom : MonoBehaviour
     }   
     public void TeleportNom()
     {
-        
+        nomNom.transform.position = teleportTransform.position;
     }
 }
 
