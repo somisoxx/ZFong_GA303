@@ -9,6 +9,7 @@ TagManager:
   - OkayGuy
   - Cannonball
   - Floor
+  - Ball
   layers:
   - Default
   - TransparentFX
