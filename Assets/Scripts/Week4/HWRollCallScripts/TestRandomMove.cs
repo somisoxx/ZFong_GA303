@@ -1,4 +1,4 @@
-using System.Diagnostics.Contracts;
+
 using UnityEngine;
 
 public class TestRandomMove : MonoBehaviour

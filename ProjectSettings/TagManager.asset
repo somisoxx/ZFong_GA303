@@ -10,6 +10,8 @@ TagManager:
   - Cannonball
   - Floor
   - Ball
+  - Key
+  - Door
   layers:
   - Default
   - TransparentFX
