@@ -15,7 +15,8 @@ public class TimerTest : MonoBehaviour
         //return a decimal number between those two numbers. If you do NOT put an f after the
         //number, it will return a whole number, from the first number to the last, not including
         //the last number. Example: Random.Range(1, 4) will return 1, 2, or 3, but not 4. 
-        //If
+        //If you do Random.Range (1f, 4f), it will return anywhere between 1 and 4, including
+        //decimal places, like 1.759
         timerMaxDuration = Random.Range(1, 4);
 
         Invoke("MoveCubeRight", timerMaxDuration);
@@ -37,6 +38,7 @@ public class TimerTest : MonoBehaviour
 
             if (timerCountUp >= timerMaxDuration)
             {
+                hasFinishedTimer = true;
                 Debug.Log("Reached End of Timer!");
             }
         }
@@ -67,5 +69,9 @@ public class TimerTest : MonoBehaviour
     {
         cube.transform.position += Vector3.right;
        
+        if(cube.transform.position.x < 10)
+        {
+            Invoke("MoveCubeRight", timerMaxDuration);
+        }
     }
 }
