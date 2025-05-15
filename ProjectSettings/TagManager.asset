@@ -12,6 +12,11 @@ TagManager:
   - Ball
   - Key
   - Door
+  - HorizontalWall
+  - VerticalWall
+  - Pikachu
+  - OtherPoke
+  - Background
   layers:
   - Default
   - TransparentFX
@@ -48,6 +53,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Other Pokemon
+    uniqueID: 509351779
+    locked: 0
+  - name: TextMesh Pro
+    uniqueID: 3336175375
     locked: 0
   m_RenderingLayers:
   - Default

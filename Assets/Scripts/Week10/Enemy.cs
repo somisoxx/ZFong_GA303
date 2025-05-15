@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created0
    protected virtual void Start()
     {
-        Player = FindAnyObjectByType<Player>();
+        //Player = FindAnyObjectByType<Player>();
     }
 
     // Update is called once per frame
@@ -27,6 +27,6 @@ public class Enemy : MonoBehaviour
     }
     public virtual void Attack()
     {
-        Player.TakeDamage(attackDamage);
+        //Player.TakeDamage(attackDamage);
     }
 }
